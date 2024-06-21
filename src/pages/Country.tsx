@@ -14,7 +14,7 @@ const Country = () => {
     const fetchData = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch('/data.json');
+        const response = await fetch('/public/data.json');
         if (!response.ok) throw new Error(`Error: ${response.status}`);
         const data: CountryDetails[] = await response.json();
         const country = data.find((item) => item.alpha3Code === id);

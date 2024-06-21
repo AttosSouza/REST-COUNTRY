@@ -25,7 +25,7 @@ const Home = () => {
   React.useEffect(() => {
     const loadCountries = async () => {
       setIsLoading(true);
-      const data = await fetchData('/data.json');
+      const data = await fetchData('/public/data.json');
       setCountries(data || []);
       setIsLoading(false);
     };
