@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+![desktop-design-home-light](https://github.com/AttosSouza/BuscaCEP---JAVA-/assets/87350423/6670da90-c4ec-4e57-af93-cd831f6059a1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Introduction
 
-Currently, two official plugins are available:
+This application provides detailed information about countries worldwide. Users can search for countries,
+filter by region, and view comprehensive details on each country.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+👉 Search bar: Users  can search for countries.
 
-- Configure the top-level `parserOptions` property like this:
+👉 Dropdown menu: Users can filter by region. 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# Tech Stack
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- React.js
+
+- TypeScript
+
+- Tailwind CSS
+
+# About the project
+
+You can see the project online right here: [https://rest-country-pied.vercel.app](https://rest-country-pied.vercel.app)
